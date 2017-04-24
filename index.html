@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            
+        </title>
+        <!-- <link href="images/icon.png" rel="shortcut icon" type="image/x-icon"> -->
+
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500" rel="stylesheet">
+
+        <!-- <link href="css/fonts.css" rel="stylesheet" />         -->
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+        <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+
+        <link rel="stylesheet" type="text/css" href="css/intlTelInput.css"/>
+
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/CreateHTML5Elements.js"></script>
+
+        <script type="text/javascript" src="js/slick.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
+        <!-- <script type="text/javascript" src="js/intlTelInput.js"></script> -->
+
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+        <style>
+        .blue-button {
+    background: #00b4ff;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+    color: white;
+    font-family: Lato,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 48px;
+    padding: 0 33px;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+            .blue-button.small {
+    border-radius: 3px;
+    font-family: brandon-grotesque,Helvetica,sans-serif;
+    font-weight: 900;
+    padding: 0 17px;
+}
+.blue-button:hover {
+    background: #1dc5ff;
+    box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+.blue-button:hover {
+    background: #1dc5ff;
+    box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+
+    
+}
+.navigation li a.blue-button.small:hover {
+    text-decoration: none;
+}
+
+.blue-button.small {
+    border-radius: 3px;
+    font-family: brandon-grotesque,Helvetica,sans-serif;
+    font-weight: 900;
+    /*padding: 0 17px;*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.blue-button {
+    color: rgba(255,255,255,0.75);
+    cursor: pointer;
+    display: block;
+    float: right;
+    line-height: 30px;
+    margin-left: 29px;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+.blue-button {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.blue-button:hover {
+    color: #fff;
+}
+
+.navigation li a.menu-link {
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+
+.headr {
+
+}
+.login-register {
+    padding-right: 25px;
+}
+
+.background1{
+    background: #56CCF2; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #56CCF2 , #2F80ED); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #56CCF2 , #2F80ED); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.background2 {
+    /* IE10+ */ 
+background-image: -ms-linear-gradient(top, #3A7BD5 0%, #3A6073 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #3A7BD5 0%, #3A6073 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #3A7BD5 0%, #3A6073 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3A7BD5), color-stop(100, #3A6073));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #3A7BD5 0%, #3A6073 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #3A7BD5 0%, #3A6073 100%);
+}
+
+.background3 {
+    background: #0A5FA2;
+    
+}
+
+.no-image-gradient-background {
+    display: block;
+    max-width: 1900px;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+}
+.main-form .title {
+    font: 43px 'Lato', sans-serif;
+    text-transform: inherit;
+    /*text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);*/
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1.6);
+}
+.title span {
+    font-weight: 800;
+}
+
+
+/*---*/
+
+.background-mixp {
+    height: 650px;
+    padding-top: 173px;
+    background: -webkit-linear-gradient(left top,#310050,#310050 35%,#1148aa 70%,#00d9d8 100%);
+    background: linear-gradient(to right bottom,#310050,#310050 35%,#1148aa 70%,#00d9d8 100%);
+}
+
+        </style>
+
+    </head>
+    <body>
+    <div class="wrapper">
+    	<header class="index-header">
+    		<div class="top-header">
+    			<a href="#" class="logo" style="color: white;
+    font-size: 34px;
+    font-family: 'Roboto Mono';
+    font-weight: 100;">
+    				<!-- <img src="images/logo.png" alt="easymail" /> -->
+                    Easymail.io
+    			</a>
+    			<div class="login-register">
+    				
+                    <!-- <a href="#">Login</a> -->
+                    <a class="blue-button small" id="signup" href="#">
+                                <span>Login</span><i class="signup-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="6px"><path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M3.011,0.530 L3.011,0.530 L3.011,1.479 L3.011,1.532 C2.997,1.775 2.801,1.969 2.558,1.973 C2.556,1.973 2.553,1.973 2.550,1.973 C2.548,1.973 2.545,1.973 2.542,1.973 L0.513,1.973 L0.409,1.973 C0.179,1.999 -0.000,2.197 -0.000,2.437 L-0.000,3.535 C-0.000,3.772 0.173,3.967 0.399,3.998 L0.523,3.998 L2.498,3.998 L2.602,3.998 C2.824,4.023 2.998,4.207 3.011,4.435 L3.011,4.489 L3.011,5.689 L3.011,5.689 C3.011,5.861 3.149,6.001 3.319,6.001 C3.383,6.001 3.444,5.981 3.493,5.947 L3.535,5.911 L6.835,3.361 C6.937,3.276 7.003,3.146 7.003,3.001 C7.003,2.856 6.937,2.726 6.835,2.641 L3.538,0.312 L3.488,0.270 C3.439,0.237 3.381,0.219 3.319,0.219 C3.149,0.219 3.011,0.359 3.011,0.530 Z"></path></svg>
+                                </i>
+                                
+                            </a>
+
+                            <!-- <a href="#">Sign Up</a> -->
+    			</div>
+                
+
+
+    			<nav>
+    				<div class="min-menu" id="menu-toogle">
+    					<i class="fa fa-bars"></i>
+    				</div>
+    				<ul class="navigation mobile-menu" >
+    					<li>
+			    			<!-- <a href="#">Support</a> -->
+                            <a href="#" class="menu-link">Sample link</a>
+    					</li>
+                        <li>
+                            
+                            
+                             <a href="#" class="menu-link">Sample link2</a>
+                        </li>
+    				</ul>
+    			</nav>
+    		</div>
+    	</header>
+
+    	<div class="main">
+    		<div class="main-back">
+                <div class="no-image-gradient-background background-mixp"></div>
+    			<!-- <img src="images/backs.png" alt="backs.png" /> -->
+                <!-- <img src="images/lighthouse.jpg" alt="back" /> -->
+                <!-- <img src="images/back-top.png" alt="back" /> -->
+
+    			<div class="main-form">
+	    			<div class="content">
+	    				<div class="title">
+                            Get a <span>professional email</span> in <span>60 seconds</span>
+                        </div>
+	    				<div class="sub-title">
+                            <!-- Use it directly from your existing email account <br />
+                            (Gmail, Hotmail, Yahoo, and many more) <br />
+                            No setup needed -->
+                        </div>
+	    				<form method="post" action="#" id="fast-reg" role="form" class="form-styles">
+                            <div class="form-group">
+                                <div class="intl-tel-input">
+                                <!-- <div class="flag-dropdown ">
+                                <div class="selected-flag">
+                                <div class="flag us">
+                                
+                                </div>
+                                </div>
+
+
+                                <ul class="country-list hide"></ul>
+
+                                </div> -->
+                                <input type="text" name="fast_email" id="fast-email" class="form-control input-lg" placeholder="" required="">
+                                </div>
+                            </div>
+
+
+                            <!-- <div class="form-group">
+                                <input type="text" name="fast_email" id="fast-email" class="form-control input-lg"  placeholder="" required />
+                            </div> -->
+                            <div>
+                                <input type="submit" class="btn btn-color" value="Search" />
+                            </div>
+                            <!-- <button type="submit" class="btn btn-color">Go</button> -->
+                        </form>
+                        <div class="results hide">
+                            <!-- place where we'll display search results -->
+                        </div>
+	    			</div>
+	    		</div>
+    		</div>
+			<div class="bottom-message">
+            <!-- No setup needed -->
+            Use it directly from your existing email account <br />
+                            (Gmail, Hotmail, Yahoo, and many more) <br />
+                            No setup needed
+            </div>
+    	</div>
+    	<main>
+    		<div class="content">
+    			<div class="row benefits">
+    				<div class="col-xs-4 item">
+    					<div class="img-wrapper">
+    						<img src="images/suport-icon.png" alt="">
+    					</div>
+    					<div class="title">
+                        Benefit #1
+                        </div>
+    					<div class="preview-info">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium aperiam.
+                        </div>
+    				</div>
+    				<div class="col-xs-4 item">
+    					<div class="img-wrapper">
+    						<img src="images/phone-icon.png" alt="">
+    					</div>
+    					<div class="title">
+                        Benefit #2
+                        </div>
+    					<div class="preview-info">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.
+                        </div>
+    				</div>
+    				<div class="col-xs-4 item">
+    					<div class="img-wrapper">
+    						<img src="images/todo-icon.png" alt="">
+    					</div>
+    					<div class="title">
+                        Benefit #3
+                        </div>
+    					<div class="preview-info">
+                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat possimus.
+                        </div>
+    				</div>
+    			</div>
+    			<div class="preview-block">
+    				<h2>
+                    Your Customers are Your Business!
+                    </h2>
+    				<div  class="sub-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </div>
+                    <div class="image-block row">
+                        <div class="col-xs-2">
+                            <div class="info-preview">
+                                <div class="title">
+                                lorem ipsum
+                                </div>
+                                <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                                </p>
+                            </div>
+                            <div class="info-preview bottom">
+                                <div class="title">lorem ipsum</div>
+                                <p>
+                                Excepteur sint occaecat cup iste natus error sit idatat non proident.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 central-img">
+                            <img src="images/ipad.png" alt="" class="ipad" />
+                            <img src="images/iphone.png" alt="" class="iphone"/>  
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="info-preview">
+                                <div class="title">
+                                lorem ipsum
+                                </div>
+                                <p>
+                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+                                </p>
+                            </div>
+                            <div class="info-preview bottom">
+                                <div class="title">
+                                lorem ipsum
+                                </div>
+                                <p>
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+            <!-- Block with customers logos -->
+    		<div class="gray">
+	    		<div class="content">
+	    			<h4>
+                    Block with customers logos
+                    </h4>
+	    			<div class="carusel">
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner1.png" alt="" />
+	    					</a>
+	    				</div>
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner2.png" alt="" />
+	    					</a>
+	    				</div>
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner3.png" alt="" />
+	    					</a>
+	    				</div>
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner4.png" alt="" />
+	    					</a>
+	    				</div>
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner5.png" alt="" />
+	    					</a>
+	    				</div>
+	    				<div>
+	    					<a href="#">
+	    						<img src="images/partner6.png" alt="" />
+	    					</a>
+	    				</div>
+	    			</div>
+	    		</div>
+    		</div>
+
+    		<div class="content support">
+    			<h2>
+                We Support Your Business 24/7
+                </h2>
+    			<div  class="sub-title">
+                Our tech support team is here to help you 24/7 via phone, live chat and email. Need help? Our <a href="#">Client Success</a> team has your back.
+                </div>
+                <div class="img-support">
+                    <img src="images/10-12-2016_2.png" alt="" />
+                    
+                    
+                    <!-- <img src="images/support_staff.png" alt="" /> -->
+                    <!-- <img src="images/team.png" alt="" /> -->
+                    <!-- <img src="images/two-customer-service-reps.png" alt="" /> -->
+                    
+                </div>
+    		</div>
+    	</main>
+    </div>
+
+
+    <footer>
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="title" id="column1">Example1</div>
+                </div>  
+                <div class="col-xs-3">
+                    <div class="title" id="column2">Example2</div>
+                    
+                </div>
+                <div class="col-xs-3">
+                    <div class="title" id="column3">Example3</div>
+                    
+                </div>
+                <div class="col-xs-3">
+                    <div class="title" id="column4">Example4</div>
+                    
+                </div>
+                <!-- <div class="col-xs-3">
+                    <div class="title" id="column5">Example5</div>
+                    
+                </div>   -->
+            </div>
+            <div class="row bottom">
+                <div class="col-xs-4">
+                    <img src="images/system.png" alt="" />
+                    <img src="images/system1.png" alt="" />
+                    <img src="images/system2.png" alt="" />
+                </div>
+                <div class="col-xs-5 copy">&copy; Copyright 2017 Easymail </div>
+                <a href="#" class="col-xs-3 logo-bottom">
+                    <!-- <img src="images/logo.png" alt="" /> -->
+                </a>
+            </div>
+        </div>
+    </footer>        
+
+
+
+   
+
+    <div class="preloader">
+        <div class="loader-container">
+            <div class="text-logo">Easymail</div>
+            <div class="signal"></div>
+        </div>
+    </div>
+
+    <!-- <script>
+        // $("#fast-email").intlTelInput();
+        $("#fast-email").intlTelInput({
+        utilsScript: "js/utils.js"
+      });
+    </script> -->
+
+    </body>
+</html>
